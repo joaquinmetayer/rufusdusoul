@@ -1,0 +1,19 @@
+$primary-color: #000;
+$secondary-color: #fff;
+
+/* el nesting esta en seccion tour y contacto 
+   el extend esta en seccion contacto
+*/
+
+
+@mixin center-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+$font-sizes: (
+    'small': 0.9em,
+    'medium': 1.1em,
+    'extra-large': 4em,
+)

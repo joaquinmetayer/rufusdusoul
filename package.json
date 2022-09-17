@@ -1,11 +1,19 @@
 {
-  "name": "entrega07_joaquinmetayer",
+  "name": "dwchproyecto",
   "version": "1.0.0",
-  "description": "",
+  "description": "Live view en https://dwchproyecto.netlify.app/",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaquinmetayer/dwchproyecto.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaquinmetayer/dwchproyecto/issues"
+  },
+  "homepage": "https://github.com/joaquinmetayer/dwchproyecto#readme"
 }

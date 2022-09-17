@@ -1,11 +1,13 @@
-@import 'all';
-@import 'navbar';
-@import 'index_intro';
-@import 'index_about';
-@import 'albums';
-@import 'contact';
-@import 'tour';
-@import 'shop';
-@import 'photos';
-@import 'footer';
-@import 'variables';
+@import './base/variables';
+@import './base/alls';
+@import './base/responsive';
+
+@import './components/nav';
+@import './components/footer';
+
+@import './sections/contact';
+@import './sections/discography';
+@import './sections/gallery';
+@import './sections/home';
+@import './sections/shop';
+@import './sections/tour';
